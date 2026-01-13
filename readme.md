@@ -29,5 +29,4 @@ to maintain an "untouchable" infrastructure, this pipeline is being evolved to i
 
 extra:
 - Add a hotel recommendation mode around it so the model can suggest hotels and places based on user preferences from the cleaned data.
-Your current project is a perfect ETL (Extract, Transform, Load) project.
 
