@@ -21,12 +21,12 @@ to maintain an "untouchable" infrastructure, this pipeline is being evolved to i
 - Generate summary statistics.
 - Visualize data distributions with Matplotlib.
 - Export cleaned data to new CSV files.
+- Includes SQLite database integration.
+- Includes hotel recommendation mode based on user preferences.
 
 05. how to run
 1. clone the repo.
 2. run `pip install -r requirements.txt`.
 3. execute `dataa_.ipynb` to generate `hotel_bookings.db`.
 
-extra:
-- Add a hotel recommendation mode around it so the model can suggest hotels and places based on user preferences from the cleaned data.
 

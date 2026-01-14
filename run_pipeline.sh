@@ -11,4 +11,8 @@ python3 dataa_.py
 echo "Step 2: Validating Database..."
 sqlite3 hotel_bookings.db "SELECT count(*) FROM bookings;"
 
+#4 Verify suggestion engine
+echo " Sugesstion Engine ✅"
+python3 -c "from recommend_engine import recommend_hotels; print(recommend_hotels('Resort Hotel', 2))
+
 echo "Pipeline Finished! ✅"
