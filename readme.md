@@ -29,4 +29,58 @@ to maintain an "untouchable" infrastructure, this pipeline is being evolved to i
 2. run `pip install -r requirements.txt`.
 3. execute `dataa_.ipynb` to generate `hotel_bookings.db`.
 
+DATA DICTIONARY:
 
+Column Name
+
+Data Type
+
+Description
+
+hotel
+
+String
+
+Type of hotel (Resort Hotel or City Hotel).
+
+is_canceled
+
+Boolean
+
+Value indicating if the booking was canceled (1) or not (0).
+
+lead_time
+
+Integer
+
+Number of days between booking date and arrival date.
+
+arrival_date_year
+
+Integer
+
+Year of arrival date.
+
+stays_in_week_nights
+
+Integer
+
+Number of week nights (Monday to Friday) the guest stayed or booked.
+
+children
+
+Float
+
+Number of children (cleaned: nulls filled with 0).
+
+agent
+
+Float
+
+ID of the travel agency that made the booking (cleaned: nulls filled with 0).
+
+company
+
+String
+
+REMOVED (Dropped due to >90% missing values).
